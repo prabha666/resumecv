@@ -1,0 +1,293 @@
+element.style{
+
+}
+.main-content {
+   min-height: 1000px;
+   width: 90%;
+   margin: 20px auto;
+   display: grid;
+   grid-template-columns: 300px 700px;
+
+}
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: " segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} */
+/* section{
+display: block;
+}
+div{
+    display: block;
+} */
+.left-section{
+    grid-column: 1;
+    background-color: #242531;
+
+}
+
+.left-content .profile-image {
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+}
+.left-content .name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.left-content .designation {
+    color: #94d9ea;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.left-content .description {
+    color: #f5f5f5;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div {
+    display: block;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+li {
+    display: list-item;
+   text-align: -webkit-match-parent;
+}
+
+.social-media li a {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ label{
+    color: #fff;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+i {
+    color: #7b2cbf;
+}
+.personal-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.skills {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.skill-name {
+    color: #fff;
+    font-weight: 0.65rem;
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+element.style{
+    width: 50%;
+}
+.progress-bar {
+    border: 1px white solid;
+    height: 4px;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+}
+section {
+    display: block;
+}
+.right-section {
+    grid-column: span 1 / span 2;
+    background-color: #d6ccc2;
+    color: #000;
+}
+.right-main-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.about-details {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+em {
+    font-style: italic;
+}
+b {
+    font-weight: bold;
+}
+.strength-weakness {
+    padding: 0.5rem;
+   
+}
+div{
+    display: block;
+}
+.strength-weakness h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+:-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.strength-weakness li {
+    padding-left: 0.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+section {
+    display: block;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+div{
+    display: block;
+}
+.school-college {
+    padding: 0.5rem;
+}
+.school-college p {
+    line-height: 2rem;
+    font-weight: 600;
+    font-size: 1.04rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.my-work {
+    padding: 0.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+    
